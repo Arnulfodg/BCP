@@ -1,0 +1,80 @@
+.masthead {
+    min-height: 30rem;
+    position: relative;
+    display: table;
+    width: 100%;
+    height: auto;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/banner1.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .masthead h1, .masthead .h1 {
+    font-size: 4rem;
+    margin: 0;
+    padding: 0;
+  }
+  @media (min-width: 992px) {
+    .masthead {
+      height: 100vh;
+    }
+    .masthead h1, .masthead .h1 {
+      font-size: 5.5rem;
+    }
+  }
+  
+  .padb{
+    padding-bottom: 0;
+    padding-top: 0;
+  }
+
+  .btn-xl {
+    padding: 1.25rem 2.5rem;
+  }
+
+  .text{
+    font-size: 20px;
+  }
+
+  /*---------------------
+  Footer
+-----------------------*/
+
+  footer.footer {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+  footer.footer .social-link {
+    display: block;
+    text-decoration: none;
+    height: 4rem;
+    width: 4rem;
+    line-height: 4.3rem;
+    font-size: 1.5rem;
+    background-color: #ffffff;
+    transition: background-color 0.15s ease-in-out;
+    box-shadow: 0 3px 3px 0 rgba(255, 255, 255, 0.1);
+  }
+  footer.footer .social-link:hover {
+   
+    text-decoration: none;
+  }
+
+  
+.list-inline {
+    padding-left: 0;
+    list-style: none;
+  }
+  
+  .list-inline-item {
+    display: inline-block;
+  }
+  .list-inline-item:not(:last-child) {
+    margin-right: 0.5rem;
+  }
+
+.bg-secondary{
+    background-color: #ffffff !important; 
+  }
